@@ -4,5 +4,5 @@ import { ghPages } from "vite-plugin-gh-pages";
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: import.meta.env.MODE === "production" ? "/Barber-Shop-Page/" : "/",
+  base: "",
 });
