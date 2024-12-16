@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Silkscreen:wght@400;700&display=swap");
+
+:root {
+  --font_Marker: "Permanent Marker", cursive;
+  --font_Rubik: "Rubik", sans-serif;
+  --font_Roboto: "Roboto Mono", monospace;
+  --font_Montserrat: "Montserrat", sans-serif;
+  --font_Silkscreen: "Silkscreen", sans-serif;
+  --fon_Creepster: "Creepster", system-ui;
+}
+
+.activeClass {
+  background-color: green;
+}
+
+.containerUs {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 80px;
+}
+
+.containerUs img {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  z-index: 100;
+  cursor: pointer;
+  max-height: 50px;
+}
+
+.dropdawn-menu {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  transform: translateY(-100vh);
+  transition: 1s ease-in-out;
+}
+
+.dropdawn-menu.active {
+  transform: translateY(0vh);
+}
+
+.dropdawn-menu .content {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.dropdawn-menu .content a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.content-general {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.content-general .container {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  z-index: 0;
+  border: 2px inset rgba(255, 255, 255, 0.2);
+}
+
+.contentHome {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("/bg_home.jpg");
+}
+
+.contentAbout {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("/bg_about.jpg");
+}
+
+.contentContact {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("/bg_contact.jpg");
+}
+
+.contentService {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("/bg_service.jpg");
+}
+
+.contentNotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle, #4cd4ff, #220b0b);
+}
+
+.contentNotFound .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  );
+  border-radius: 40px;
+  font-family: var(--fon_Creepster);
+
+  text-shadow: #4cd4ff 0px 0px 10px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.contentNotFound .container h1 {
+  font-size: 5rem;
+  text-shadow: #5bff4c 0px 0px 20px;
+}
+
+.contentNotFound .container img {
+  width: 70%;
+  height: 30%;
+  max-width: 200px;
+}
+
+.contentNotFound .container h2,
+h3 {
+  font-family: var(--font_Silkscreen);
+  font-size: 15px;
+}
+
+.contentNotFound .container .logs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.contentNotFound .container .logs img {
+  width: 100px;
+  height: 100px;
+}
+
+.contentNotFound .container .logs a {
+  width: 50%;
+  max-width: 300px;
+  background-color: #4cd4ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font_Silkscreen);
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contentNotFound .container .logs a:hover {
+  box-shadow: #4cd4ff 0px 0px 10px;
+}
