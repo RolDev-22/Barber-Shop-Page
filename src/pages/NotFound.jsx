@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import BntLink from "../components/Btn_Redirect";
 import img1 from "../../public/img_aux_1.png";
 import img2 from "../../public/img_aux_2.png";
 
@@ -13,7 +13,9 @@ export default function NotFound() {
           <h3>PÁGINA NO ENCONTRADA</h3>
           <div className="logs">
             <img src={img2} alt="" />
-            <Link to="/">INICIO</Link>
+            <div className="containerBtn">
+              <BntLink text="Inicio" url="/" />
+            </div>
           </div>
         </div>
       </div>
