@@ -1,18 +1,1 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg fill="#ffffff" width="800px" height="800px" viewBox="0 0 200 200" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
-
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-
-<g id="SVGRepo_iconCarrier">
-
-<title/>
-
-<path d="M75,20H40A20.06,20.06,0,0,0,20,40V75A20.06,20.06,0,0,0,40,95H75A20.06,20.06,0,0,0,95,75V40A20.06,20.06,0,0,0,75,20Zm0,55H40V40H75Zm95-27.5a10,10,0,0,0-10,10V75H125V40h17.5a10,10,0,0,0,0-20H125a20.06,20.06,0,0,0-20,20V75a20.06,20.06,0,0,0,20,20h35a20.06,20.06,0,0,0,20-20V57.5A10,10,0,0,0,170,47.5ZM75,105H40a20.06,20.06,0,0,0-20,20v35a20.06,20.06,0,0,0,20,20H75a20.06,20.06,0,0,0,20-20V125A20.06,20.06,0,0,0,75,105Zm0,55H40V125H75Zm85-55H125a20.06,20.06,0,0,0-20,20v35a20.06,20.06,0,0,0,20,20h35a20.06,20.06,0,0,0,20-20V125A20.06,20.06,0,0,0,160,105Zm0,55H125V125h35Z"/>
-
-</g>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:#fff;opacity:0;}.cls-2{fill:#fff;}</style></defs><title>menu</title><g id="Layer_2" data-name="Layer 2"><g id="menu"><g id="menu-2" data-name="menu"><rect class="cls-1" width="24" height="24" transform="translate(24 24) rotate(180)"/><rect class="cls-2" x="3" y="11" width="18" height="2" rx="0.95" ry="0.95"/><rect class="cls-2" x="3" y="16" width="18" height="2" rx="0.95" ry="0.95"/><rect class="cls-2" x="3" y="6" width="18" height="2" rx="0.95" ry="0.95"/></g></g></g></svg>
