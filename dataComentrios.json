@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "comment": "La esperiencia de la barbería ha sido excelente. Los cortes de cabello son precisos y los servicios de barba son excelentes. Recomendable para todos los que buscan un estilo y calidad.",
+    "urlPicture": "/Barber-Shop-Page//picture_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Jerson Fallas",
+    "comment": "La barbería ofrece una atención excepcional y los cortes de cabello son muy buenos. Recomiendo la barbería para aquellos que buscan un estilo y calidad en su cabello.",
+    "urlPicture": "/Barber-Shop-Page//picture_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Mario Lopez",
+    "comment": "La barbería ofrece una excelente atención y los cortes de cabello son precisos. Recomiendo la barbería para aquellos que buscan un estilo y calidad en su cabello.",
+    "urlPicture": "/Barber-Shop-Page//picture_3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pedro Gomez",
+    "comment": "La barbería ofrece una excelente atención y los cortes de cabello son precisos. Recomiendo la barbería para aquellos que buscan un estilo y calidad en su cabello.",
+    "urlPicture": "/Barber-Shop-Page//picture_4.jpg"
+  }
+]

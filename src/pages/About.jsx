@@ -1,5 +1,6 @@
 import imgAbAux from "../../public/aux_abt.jpg";
 import BntLink from "../components/Btn_Redirect";
+import CNews from "../components/News";
 import { useState, useEffect } from "react";
 
 export default function About() {
@@ -39,7 +40,7 @@ export default function About() {
             </div>
           </div>
           <div className={`cont-buttom ${efect ? "desplaceBtn" : ""}`}>
-            hola button
+            <CNews />
           </div>
         </div>
       </div>
