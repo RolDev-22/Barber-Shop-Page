@@ -24,7 +24,11 @@ const User = () => {
       <div className={`dropdawn-menu ${dropdown ? "active" : ""}`}>
         <div className="content">
           {items.map(([index, item]) => (
-            <Link key={index} to={`/${index}`}>
+            <Link
+              key={index}
+              to={`/${index}`}
+              onClick={() => setDropdown(false)}
+            >
               {item}
             </Link>
           ))}

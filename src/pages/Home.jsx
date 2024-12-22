@@ -1,6 +1,6 @@
 import BntLink from "../components/Btn_Redirect";
 import Socials from "../components/Socials";
-import imgJmb from "../../public/bg_jumbotron.jpg";
+import Carrusel from "../components/Carrusel";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
           </div>
           <div className="cont-rigth">
-            <img src={imgJmb} alt="" />
+            <Carrusel />
           </div>
         </div>
       </div>

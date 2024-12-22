@@ -78,7 +78,7 @@ header .menu {
   backdrop-filter: blur(5px);
   border-radius: 10px;
   z-index: 0;
-  border: 2px inset rgba(255, 255, 255, 0.2);
+  border: 1px inset rgba(255, 255, 255, 0.2);
   overflow: hidden;
 }
 
