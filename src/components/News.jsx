@@ -6,9 +6,9 @@ const News = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % data.length); // Corrige el uso de setCurrentIndex
+      setCurrentIndex((prev) => (prev + 1) % data.length);
     }, 10000);
-    return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+    return () => clearInterval(interval);
   }, []);
 
   // Obtén el comentario actual
